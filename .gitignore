@@ -1,0 +1,13 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# MARSSPIM settings or temporary dump files (if any)
+.settings
+.tmp
+.dump
+
+# Compiled binaries (if you later delve into x86ARM GCC assembly)
+.out
+.o
+.exe
