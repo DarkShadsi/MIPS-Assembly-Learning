@@ -40,4 +40,8 @@
 		move $a0, $s0
 		syscall
 		
+		# retrieve back the original of s0 from the stack
+		lw $s0, 0($sp)
+		addi $sp, $sp, 4
+						
 		jr $ra
